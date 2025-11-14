@@ -1,5 +1,5 @@
 {
-    "version": "0.1.4",
+    "version": "0.1.7",
     "description": "A powerful, cross-platform GUI for managing Rclone remotes with style and ease.",
     "homepage": "https://rclone-manager.github.io/",
     "license": "GPL-3.0-or-later",
@@ -9,12 +9,12 @@
     ],
     "architecture": {
         "64bit": {
-            "url": "https://github.com/RClone-Manager/rclone-manager/releases/download/v0.1.4/RClone.Manager_0.1.4_x64-setup.exe#/dl.7z",
-            "hash": "22839ec14c9c8bed0f5b78d6378e0cfcfcc7eb0950b6dba876df72025939a593"
+            "url": "https://github.com/RClone-Manager/rclone-manager/releases/download/v0.1.7/RClone.Manager_0.1.7_x64-setup.exe#/dl.7z",
+            "hash": "c243d5a178ceba4ee6c768cd4efba38754f4e722cac1109257158809d71da759"
         },
         "arm64": {
-            "url": "https://github.com/RClone-Manager/rclone-manager/releases/download/v0.1.4/RClone.Manager_0.1.4_arm64-setup.exe#/dl.7z",
-            "hash": "768c2a2ce9033e8166eb42f5a1cdc01f1622920b79ba6e9600c760a2a998f27a"
+            "url": "https://github.com/RClone-Manager/rclone-manager/releases/download/v0.1.7/RClone.Manager_0.1.7_arm64-setup.exe#/dl.7z",
+            "hash": "3eb9e4cc6d15ae59439b30ec5ea087994de499fc3397184618429cae7b057a3f"
         }
     },
     "pre_install": "Remove-Item \"$dir\\`$PLUGINSDIR\", \"$dir\\uninstall.exe\" -Force -Recurse",
